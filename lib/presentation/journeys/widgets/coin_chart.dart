@@ -51,27 +51,19 @@ class CoinChart extends StatelessWidget {
 
   List<ChartsData> getSampleData() {
     return <ChartsData>[
-      const ChartsData(weekDay: 'SUN', open: 1400, high: 1610, low: 1380, close: 1520),
-      // const ChartsData(weekDay: '', open: 1510, high: 1630, low: 1420, close: 1599),
+      const ChartsData(weekDay: 'SUN', open: 1700, high: 1610, low: 1380, close: 1520),
 
       const ChartsData(weekDay: 'MON', open: 1500, high: 1605, low: 1490, close: 1470),
-      // const ChartsData(weekDay: '', open: 1610, high: 1530, low: 1400, close: 1699),
 
       const ChartsData(weekDay: 'TUE', open: 1400, high: 1570, low: 1380, close: 1530),
-      // const ChartsData(weekDay: '', open: 1510, high: 1630, low: 1420, close: 1599),
 
       const ChartsData(weekDay: 'WED', open: 1485, high: 1600, low: 1480, close: 1590),
-      // const ChartsData(weekDay: '', open: 1510, high: 1630, low: 1420, close: 1599),
 
       const ChartsData(weekDay: 'THU', open: 1600, high: 1690, low: 1590, close: 1660),
-      // const ChartsData(weekDay: '', open: 1510, high: 1630, low: 1420, close: 1599),
 
       const ChartsData(weekDay: 'FRI', open: 1610, high: 1670, low: 1600, close: 1640),
-      // const ChartsData(weekDay: '', open: 1510, high: 1630, low: 1420, close: 1599),
 
-      // const ChartsData(weekDay: 'SAT', open: 1590, high: 1680, low: 1580, close: 1655),
       const ChartsData(weekDay: 'SAT', open: 1600, high: 1690, low: 1600, close: 1670),
-      // const ChartsData(weekDay: '', open: 1510, high: 1630, low: 1420, close: 1599),
     ];
   }
 
